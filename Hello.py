@@ -14,7 +14,7 @@ def main():
 
 #Xuất nhập tồn
 
-df_xnt = pd.read_excel(io="D:\data\streamlit\Tổng hợp nhập xuất tồn theo lô.xlsx",
+df_xnt = pd.read_excel(io="Tổng hợp nhập xuất tồn theo lô.xlsx",
                    engine="openpyxl",
                    sheet_name="Data",
                    usecols='A:J',
@@ -58,7 +58,7 @@ with column_xnt4:
 st.write('<style>div.Widget.stDataFrame {weight: 1500px;}</style>', unsafe_allow_html=True)
 st.write(df_xnt)
 #Bảng kê đối chiếu dữ liệu ERP - WMS
-df = pd.read_excel(io="D:\data\streamlit\Bảng kê đối chiếu dữ liệu ERP - WMS.xlsx",
+df = pd.read_excel(io="Bảng kê đối chiếu dữ liệu ERP - WMS.xlsx",
                    engine="openpyxl",
                    sheet_name="Data",
                    usecols='B:I',
@@ -155,7 +155,7 @@ with middle_column:
 
 
 ## lech tem
-df_vitri = pd.read_excel(io="D:\data\streamlit\Báo cáo tồn kho tem thùng theo vị trí.xlsx",
+df_vitri = pd.read_excel(io="Báo cáo tồn kho tem thùng theo vị trí.xlsx",
                    engine="openpyxl",
                    sheet_name="Data",
                    usecols='B:O',
