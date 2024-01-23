@@ -1,5 +1,4 @@
 import pandas as pd
-import openpyxl as xl
 import streamlit as st
 import matplotlib.pyplot as plt
 import plotly.express as px 
